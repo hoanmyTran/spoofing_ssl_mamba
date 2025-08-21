@@ -78,7 +78,7 @@ Change the configuration in **config.yaml** file if necessary
 The checkpoint is found [here](https://huggingface.co/hoanmyTran/ssl_spoofing_mamba).
 
 
-## CItation
+## Citation
 If you find this repository useful, please consider citing:
 ```
 @inproceedings{tran25b_interspeech,
@@ -92,7 +92,7 @@ If you find this repository useful, please consider citing:
 }
 ```
 
-## Acknowledgements
+## Acknowledgements
 Our implementations use the source code from the following repositories:
 
 - [RawBoost-antispoofing](https://github.com/TakHemlata/RawBoost-antispoofing)
