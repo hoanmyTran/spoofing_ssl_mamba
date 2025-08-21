@@ -11,7 +11,7 @@ compute:
 evaluation:
   eval: false
   batch_size: 1
-  protocol_path: metadata_test/asvspoof19_eval.csv
+  protocol_path: metadata/asvspoof19_eval.csv
   transform: null
   output_score_file: "scores_file.csv"
   task: null
