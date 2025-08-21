@@ -5,7 +5,7 @@
 <!-- markdownlint-disable no-duplicate-header -->
 
 <div align="center">
-  <img src="mamba.png" width="30%" alt="spoofing_ssl_mamba" />
+  <img src="mamba.png" width="15%" alt="spoofing_ssl_mamba" />
 </div>
 <div align="center" style="line-height: 1;">
 
