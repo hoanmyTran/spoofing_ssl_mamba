@@ -1,0 +1,46 @@
+model:
+  name: "spoofing_ssl_mamba"
+  checkpoint: null
+
+compute:
+  strategy: "auto"
+  accelerator: "gpu"
+  device: [0]
+  enable_model_summary: true
+  
+evaluation:
+  eval: false
+  batch_size: 1
+  protocol_path: metadata_test/asvspoof19_eval.csv
+  transform: null
+  output_score_file: "scores_file.csv"
+  task: null
+
+training:
+  batch_size: 5
+  learning_rate: 0.000003
+  weight_decay: 0.0001
+  optimizer_gamma: 0.9
+  seed: 1234
+  num_epochs: 10
+  early_stopping:
+    es_monitor: "val_loss"
+    es_mode: "min"
+    patience: 3
+  model_checkpoint:
+    ckpt_monitor: "val_loss"
+    ckpt_mode: "min"
+    ckpt_save_top: 3
+
+dataset:
+  train:
+    protocol_path: "metadata/asvspoof19_train.csv"
+  val:
+    protocol_path: "metadata/asvspoof19_eval.csv"
+  transform: null
+  max_len: 64600
+  sampling_rate: 16000
+
+# https://github.com/TakHemlata/RawBoost-antispoofing
+rawboost:
+  algo: 0
