@@ -31,6 +31,7 @@ pip install -r requirements.txt
 ## Training
 
 To launch the training, modify the **config.yaml** file:
+- **The learning is 3x10<sup>-6</sup> and not 3x10<sup>-3</sup> as written in the paper (Typo).**
 - Change *protocol_path* for both *train* and *val* in dataset
 The protocole file path should be under the form without headers
 *file_name,label*
