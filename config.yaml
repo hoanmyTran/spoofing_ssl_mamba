@@ -36,7 +36,7 @@ dataset:
   train:
     protocol_path: "metadata/asvspoof19_train.csv"
   val:
-    protocol_path: "metadata/asvspoof19_eval.csv"
+    protocol_path: "metadata/asvspoof19_dev.csv"
   transform: null
   max_len: 64600
   sampling_rate: 16000
