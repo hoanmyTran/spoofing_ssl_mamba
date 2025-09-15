@@ -18,7 +18,7 @@
 This Repository contains the code and pretrained model for the following INTERSPEECH 2025 paper:
 
 * **Title** : Leveraging SSL Speech Features and Mamba for Enhanced DeepFake Detection
-* **Autor** : Hoan My Tran, Damien Lolive, David Guennec, Aghilas Sini, Arnaud Delhay, Pierre-François Marteau
+* **Author** : Hoan My Tran, Damien Lolive, David Guennec, Aghilas Sini, Arnaud Delhay, Pierre-François Marteau
 
 
 ## Installation
